@@ -8,7 +8,7 @@ def change_rainbow_colors
   rainbow_colors[0] = "red"
   rainbow_colors[1] = "light_red"
   rainbow_colors[2] = "light_yellow"
-returns rainbow_colors
+  rainbow_colors
 end
 puts change_rainbow_colors
 

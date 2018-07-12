@@ -14,12 +14,12 @@ end
 puts change_rainbow_colors
 
 def add_colors
-  change_rainbow_colors
   rainbow_colors = [
   "yellow",
   "default",
   "light_cyan"
 ]
+  change_rainbow_colors
   rainbow_colors.push "green"
   rainbow_colors.push "blue"
   rainbow_colors

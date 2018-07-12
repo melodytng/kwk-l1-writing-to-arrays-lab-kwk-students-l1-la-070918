@@ -24,4 +24,4 @@ def add_colors
   rainbow_colors.push "blue"
   rainbow_colors
 end
-puts add_colors
+

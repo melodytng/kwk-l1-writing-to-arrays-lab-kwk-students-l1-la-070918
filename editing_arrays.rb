@@ -9,9 +9,9 @@ def change_rainbow_colors
   rainbow_colors[0] = "red"
   rainbow_colors[1] = "light_red"
   rainbow_colors[2] = "light_yellow"
-  return rainbow_colors
+  rainbow_colors
 end
-change_rainbow_colors
+puts change_rainbow_colors
 
 def add_colors
   rainbow_colors = [
@@ -21,6 +21,6 @@ def add_colors
 ]
   rainbow_colors.push "green"
   rainbow_colors.push "blue"
-  return rainbow_colors
+  rainbow_colors
 end
-add_colors
+puts add_colors
